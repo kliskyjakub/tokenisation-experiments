@@ -1,0 +1,27 @@
+.product_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+.product_image {
+  border: 0.5px dashed #464646;
+  width: 200px;
+  height: 200px;
+  margin: 10px 25px;
+}
+.product_info {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 35px;
+  width: 200px;
+}
+.gif_invert {
+  -webkit-filter: invert(1);
+  filter: invert(1);
+  padding: 50px;
+  width: 100px;
+  height: 100px;
+}

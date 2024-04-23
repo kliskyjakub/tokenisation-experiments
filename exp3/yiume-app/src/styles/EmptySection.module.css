@@ -1,0 +1,9 @@
+.none {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.none video {
+  width: 200px;
+  height: 200px;
+}

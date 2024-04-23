@@ -1,0 +1,23 @@
+.logo {
+  display: flex;
+  height: 70px;
+  width: 70px;
+  margin-left: 30px;
+  margin-right: 100px;
+}
+.gif_invert {
+  height: 70px;
+  -webkit-filter: invert(1);
+  filter: invert(1);
+}
+.navigation {
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-between;
+  margin: auto;
+}
+.navigation a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
