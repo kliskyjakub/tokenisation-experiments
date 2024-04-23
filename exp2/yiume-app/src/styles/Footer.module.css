@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.social {
+  display: inline;
+  margin: 10px 10px 30px;
+}

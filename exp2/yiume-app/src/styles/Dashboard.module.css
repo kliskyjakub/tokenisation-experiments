@@ -1,0 +1,51 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0.5rem;
+}
+.collectibles_wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  color: white;
+  min-height: 250px;
+}
+
+.collectibles_wrapper_rysk {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+.collectible_thumbnail {
+  width: 200px;
+  margin: 10px;
+}
+.collectible_thumbnail_rysk {
+  width: 200px;
+  margin: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.collectible_thumbnail:hover {
+  text-decoration: underline;
+}
+.collectible_thumbnail_rysk:hover {
+  text-decoration: underline;
+}
+.collectible_thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.collectible_thumbnail_rysk img {
+  width: 100%;
+  height: 100%;
+}

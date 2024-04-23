@@ -1,0 +1,5 @@
+.section_seperator {
+  width: 2rem;
+  border-bottom: 1.5px solid white;
+  margin: 2rem auto;
+}
